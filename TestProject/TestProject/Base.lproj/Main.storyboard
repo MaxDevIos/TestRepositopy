@@ -22,12 +22,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcz-l9-0Ss">
+                                <rect key="frame" x="145" y="582.66666666666663" width="100" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="wNb-gx-fgJ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="LHI-fp-uFc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1ld-z4-dOa"/>
                             <constraint firstItem="LHI-fp-uFc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5ah-RJ-oVO"/>
+                            <constraint firstItem="bcz-l9-0Ss" firstAttribute="top" secondItem="LHI-fp-uFc" secondAttribute="bottom" constant="150" id="QIl-zl-p9M"/>
+                            <constraint firstItem="bcz-l9-0Ss" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zu4-sZ-6Va"/>
                         </constraints>
                     </view>
                 </viewController>
